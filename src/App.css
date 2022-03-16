@@ -28,7 +28,6 @@
   color: blue !important;
 }
 
-
 .techList {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -39,11 +38,10 @@
   background-color: lightblue;
   min-height: 50px;
   border-radius: 3px;
-  
-  
+
   display: flex;
   text-align: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .intro {
@@ -73,10 +71,9 @@
 }
 
 .cardImage {
-  max-width: 400px;
+  max-width: 300px;
   width: 100%;
   /* height: fit-content; */
-  
 }
 
 /* contact icon */
@@ -124,10 +121,6 @@
   left: 50%;
   bottom: 50%;
   margin-left: -1em;
-  display: none;
-}
-
-.spinner.show {
   display: block;
 }
 
@@ -138,7 +131,7 @@
 }
 
 @media (min-width: 992px) {
-    .fab:hover .emailIcon {
+  .fab:hover .emailIcon {
     display: none;
   }
 
@@ -148,7 +141,6 @@
 }
 
 @media (min-width: 1200px) {
-
 }
 
 @media (min-width: 1400px) {

@@ -1,17 +1,14 @@
-import React from "react";
-import { Toast, ToastBody } from "react-bootstrap";
+import React from 'react'
+import { Toast, ToastBody } from 'react-bootstrap'
 
-const MsgToast = ({ showToast, setShowToast, toastMsg, setToastMsg }) => {
-
-
-    const handleOnClose = () => {
-        // setToastMsg("")
-        setShowToast(false)
-    }
+const MsgToast = ({ toastMsg, setToastMsg }) => {
+  const handleOnClose = () => {
+    setToastMsg('')
+  }
 
   return (
     <Toast
-      show={showToast}
+      show={!!toastMsg}
       onClose={() => handleOnClose()}
       delay={2000}
       autohide
@@ -20,7 +17,7 @@ const MsgToast = ({ showToast, setShowToast, toastMsg, setToastMsg }) => {
     >
       <ToastBody>{toastMsg} </ToastBody>
     </Toast>
-  );
-};
+  )
+}
 
-export default MsgToast;
+export default MsgToast
