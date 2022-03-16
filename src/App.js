@@ -1,6 +1,6 @@
 import './App.css'
 import { Container } from 'react-bootstrap'
-import Header from './components/Header'
+import NavBar from './components/NavBar'
 import Intro from './components/Intro'
 import WorkList from './components/WorkList'
 import About from './components/About'
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <MsgToast toastMsg={toastMsg} setToastMsg={setToastMsg} />
-      <Header />
+      <NavBar />
       <Intro setToastMsg={setToastMsg} />
       <div className="background">
         <Container className="py-5">

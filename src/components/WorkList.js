@@ -6,7 +6,7 @@ const WorkList = () => {
   return (
     <div>
       <h1 id="work" className="mb-4 ">
-        Work
+        Projects
       </h1>
 
       <Container className="text-md-left text-center">

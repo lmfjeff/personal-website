@@ -3,7 +3,7 @@ import { Nav, Navbar, NavbarBrand, NavLink } from 'react-bootstrap'
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse'
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle'
 
-const Header = () => {
+const NavBar = () => {
   return (
     <Navbar collapseOnSelect expand="sm" bg="light" sticky="top">
       <NavbarBrand href="#top" className="ml-5">
@@ -30,4 +30,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default NavBar
